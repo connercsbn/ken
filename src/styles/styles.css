@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+	/******************** nav ******************/
+	.nav-link {
+		@apply relative flex flex-row py-4 px-10
+		transition-all justify-center font-bold flex-wrap max-w-7xl w-full m-auto font-body
+        after:w-full after:absolute after:h-1 after:bottom-0 after:bg-transparent hover:after:bg-indigo-300;
+	}
+	.nav-link-desktop {
+		@apply max-w-lg flex overflow-auto py-4 px-0 mx-0 w-max flex-grow;
+	}
+	.active {
+		@apply text-black after:bg-blue-800 hover:after:bg-indigo-800;
+	}
+	.par {
+		@apply max-w-3xl;
+	}
+}
