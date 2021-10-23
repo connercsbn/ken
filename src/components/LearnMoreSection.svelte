@@ -19,7 +19,7 @@
                     width="560"
                     height="315"
                     title="Intro to the Tax-Deferred Cash Out"
-                    src="https://player.vimeo.com/video/131829841?h=e4161c5172"
+                    src="https://player.vimeo.com/video/572368352?h=ee632e051a"
                     frameborder="0"
                     allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
             />
