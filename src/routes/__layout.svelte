@@ -5,19 +5,25 @@
 	import '../app.css';
 	import '../styles/styles.css';
 	import '../styles/tailwind-output.css';
+	let x;
 </script>
 
+<svelte:window bind:innerWidth={x} />
 <svelte:head>
 	<link rel="preconnect" href="https://fonts.googleapis.com" />
 	<link rel="preconnect" href="https://fonts.gstatic.com" />
 	<link
-		href="https://fonts.googleapis.com/css2?family=Andada+Pro:wght@400;500&family=PT+Serif:wght@400;700&family=Raleway&display=swap"
+		href="https://fonts.googleapis.com/css2?family=Andada+Pro:wght@400;500&family=PT+Serif:wght@400;700&family=Raleway:wght@400;500;600;700;800&display=swap"
 		rel="stylesheet"
 	/>
 </svelte:head>
 
-<Header />
-<Body>
-	<slot />
-</Body>
-<Footer />
+{#if x > 1100 || x == undefined}
+	<Header />
+	<Body>
+		<slot />
+	</Body>
+	<Footer />
+{:else}
+	<h1>Site not yet designed for current size</h1>
+{/if}

@@ -3,11 +3,15 @@ const config = {
 	purge: ['./src/**/*.{html,js,svelte,ts}'],
 
 	theme: {
-		fontFamily: {
-			display: ['Raleway'],
-			body: ['Raleway']
-		},
-		extend: {}
+		extend: {
+			fontFamily: {
+				display: ['Raleway'],
+				body: ['Raleway']
+			},
+			minWidth: {
+				lg: '25rem'
+			}
+		}
 	},
 
 	plugins: []
