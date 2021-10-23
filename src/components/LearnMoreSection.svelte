@@ -14,17 +14,17 @@
 	<div class="w-11/12 mx-auto my-7">
 		<div class="vid-container">
 			<!-- video -->
-			<iframe
-				class="iframe h-1/2"
-				width="560"
-				height="315"
-				title="2 Wet Crew: Anderson"
-				src="https://player.vimeo.com/video/131829841?h=e4161c5172"
-				frameborder="0"
-				allow="autoplay; fullscreen; picture-in-picture"
-				allowfullscreen
-			/>
+            <iframe
+                    class="iframe h-12"
+                    width="560"
+                    height="315"
+                    title="Intro to the Tax-Deferred Cash Out"
+                    src="https://player.vimeo.com/video/131829841?h=e4161c5172"
+                    frameborder="0"
+                    allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
+            />
 		</div>
+
 		<p class="font-body font-bold mt-9">
 			Watch this quick 2-minute video to learn how you can defer your capital gains taxes for 30
 			years with a Tax-Deferred Cash Out
