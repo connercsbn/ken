@@ -25,5 +25,5 @@
 	</Body>
 	<Footer />
 {:else}
-	<h1>Site not yet designed for current size</h1>
+	<h1>Design for current size not yet implemented</h1>
 {/if}

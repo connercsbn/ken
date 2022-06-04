@@ -13,8 +13,10 @@
 		<p class="">and keep your cash when you sell</p>
 	</TopBanner>
 	<SecondBanner />
-	<div class="flex justify-around pb-36">
-		<LearnMoreSection />
-		<CaseStudies />
+	<div class="max-w-screen-xl m-auto">
+		<div class="flex justify-around pb-36">
+			<LearnMoreSection />
+			<CaseStudies />
+		</div>
 	</div>
 </main>
